@@ -35,4 +35,6 @@ html {
   transform: rotate(360deg);
 }
 
+.hand-hour {
+  animation: hand-rotate 6s linear infinite;
 }
