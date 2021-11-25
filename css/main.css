@@ -18,10 +18,10 @@ html {
 
 .clock-center {
   bottom: calc(50% - 14px);
-  left: calc(50% - 14px)
+  left: calc(50% - 14px);
   position: absolute;
   width: 14px;
-  transform-origin: 50% cals(100% - 8px);
+  transform-origin: 50% calc(100% - 8px);
 }
 
 .hand-minute {
