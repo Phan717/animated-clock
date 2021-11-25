@@ -29,7 +29,7 @@ html {
   left: calc(50px - 7px);
   position: absolute;
   width: 14px;
-  transform-origin: 50% calc(100% - 8px)
+  transform-origin: 50% calc(100% - 8px);
 }
 
 .hand-minute {
@@ -41,6 +41,7 @@ html {
 }
 
 @keyframes hand-rotate {
+
   0% {
     transform: rotate(0deg);
   }
@@ -48,4 +49,5 @@ html {
   100% {
     transform: rotate(360deg);
   }
+
 }
